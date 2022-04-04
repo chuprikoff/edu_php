@@ -1,0 +1,37 @@
+html {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+h1,
+h4 {
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+}
+th {
+  background: rgb(161, 158, 158);
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container div {
+  min-width: 300px;
+}
+table,
+td,
+th {
+  border: 1px solid grey;
+  text-align: center;
+}
+td,
+th {
+  width: 30%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 12px 13px 19px 6px rgba(1, 8, 13, 0.11);
+}
